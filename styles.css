@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    background-color: rgb(45, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width: 1189px;
+    margin: auto;
+    grid-template-areas: 
+    "large small smaller"
+"large tiny tiny" ;
+}
+ .auto{
+    grid-area: large;
+    width: 686.61px;
+}
+  .said {
+    position: relative;
+    text-align: center;
+    color: white; 
+}  
+.craig {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+} 
+.after {
+    position: absolute;
+    margin-top: -60px;
+    left: 20px;
+} 
+.auto1{
+    grid-area: small;
+    width: 240px;
+}
+.auto2{
+    grid-area: smaller;
+    width: 240px;
+}
+.auto3{
+grid-area: tiny;
+width: 497px;
+height: 278px;
+/* margin-bottom: -546px;
+margin-right: -456px; */
+} 
+.contain{
+    display: grid;
+}
+
+.busy {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 891.55px;
+height: 43px;
+top: 858.7px;
+left: 120px;
+}
+.dont{
+    color: #F65050;
+    font-size: 20px;
+}
+nav {
+ display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto; 
+ 
+}
+nav a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5px;
+    color: white;
+}
+.miss {
+    display: grid;
+    grid-template-columns: auto auto auto;  
+}
+.miss a{
+    text-decoration: none;
+    list-style: none; 
+}
+.free {
+    width: 250px;
+    margin-right: -40px;
+}
+.think {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    gap: 1rem;
+}
+.post {
+    width: 100%;
+    height: 399px;
+    
+}
+.berry {
+    margin-top: 15px; 
+}
+
+.all {
+    background-color:  #F65050;
+    width: 55px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.Lifestyle{
+    background-color: rgb(119, 55, 179);
+    width: 75px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.Vogue {
+    background-color: green;
+    width: 60px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.Health{
+background-color: #0088FF;
+width: 155px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.Travel{
+    background: #997C00;
+    width: 65px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.Gadgets{
+    background: #49CFE8;
+    width: 75px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.World{
+    background: #0088FF;
+    width: 65px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.More{
+    background: #4C60F5;
+    width: 55px;
+    height: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.sect  {
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px 80px;
+}
+
