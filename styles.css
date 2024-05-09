@@ -61,6 +61,7 @@ margin-right: -456px; */
 } 
 .contain{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .busy {
@@ -96,7 +97,7 @@ nav a {
 }
 .free {
     width: 250px;
-    margin-right: -40px;
+    margin-top: 50px;
 }
 .think {
     display: grid;
@@ -104,13 +105,20 @@ nav a {
     margin-top: 15px;
     gap: 1rem;
 }
+.seven {
+    padding-right: 10px;
+}
 .post {
     width: 100%;
-    height: 399px;
-    
+    height: 399px; 
+}
+
+.december{
+    display: grid;
+    gap: 0.5rem;
 }
 .berry {
-    margin-top: 15px; 
+    margin-top: 35px; 
 }
 
 .all {
@@ -181,6 +189,6 @@ justify-content: center;
     gap: 3rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin: 50px 80px;
+    margin: 50px 0 50px 80px;
 }
 
